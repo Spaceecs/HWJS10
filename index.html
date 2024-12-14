@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaPost</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Нові Відділення Нової Пошти</h1>
+
+    <div class="block">
+        <label for="npAreas">Область:</label>
+        <select id="npAreas">
+            <option disabled selected>Оберіть область</option>
+        </select>
+    </div>
+
+    <div class="block">
+        <label for="citySearch">Назва міста:</label>
+        <input type="text" id="citySearch" placeholder="Введіть назву міста...">
+    </div>
+
+    <div class="block">
+        <label for="npCities">Місто:</label>
+        <select id="npCities">
+            <option disabled selected>Оберіть місто</option>
+        </select>
+    </div>
+
+    <div class="block">
+        <button id="getWarehousesButton">Отримати відділення</button>
+    </div>
+
+    <div class="block">
+        <label for="npWarehouses">Відділення:</label>
+        <select id="npWarehouses">
+            <option disabled selected>Список відділень</option>
+        </select>
+    </div>
+
+    <div class="messages" id="errorMessages"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
